@@ -14,7 +14,8 @@
     padding: 15px 20px;
     border: none;
     color: white;
-    font-family: open sans;
+    font-family: 'Open Sans', sans-serif;
+
     font-size: 18px;
 }
 
@@ -22,9 +23,20 @@
     background-color: #ffffff;
     padding: 15px 20px;
     border: none;
-    font-family: open sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     margin-left: 10px;
+}
+
+
+.btn-tertiary {
+    background-color: #F0F0F0;
+    padding: 15px 30px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    border-radius: 50px;
+    margin-left: 50px;
 }
 
 /* Nav Styles */
@@ -44,7 +56,7 @@ nav {
 .menu-item {
     margin-left: 24px;
     font-size: 22px;
-    font-family: serif;
+    font-family: 'PT Serif', serif;
     color: rgb(37, 37, 37);
 }
 
@@ -74,4 +86,98 @@ nav {
     margin: auto;
     font-size: 22px;
     margin-bottom: 20px;
+}
+
+/* Services Styles */
+.services-section {
+    background-image: url(../asset/image/footer-bg.png), linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    padding: 100px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.service-left {
+    padding-right: 100px;
+}
+
+.service-title {
+    font-size: 45px;
+    font-family: 'PT Serif', serif;
+    color: #BECFD0;
+}
+
+.service-description {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #becfd0;
+    margin: 20px auto;
+}
+
+.service-list li {
+
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #becfd0;
+    list-style: none;
+}
+
+.author-container {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+
+.author-info-container {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #f52c2c;
+    padding: 25px 0 25px;
+}
+
+.author-img img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.author-details {
+    color: white;
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    margin-right: 50px;
+}
+
+.skill-card-container {
+    display: flex;
+}
+
+.skill-card {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    padding: 60px 60px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.skill-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.skill-card img {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.skill-title {
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    text-align: center;
 }
