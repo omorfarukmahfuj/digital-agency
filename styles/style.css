@@ -1,3 +1,30 @@
 * {
     margin: 0;
+    padding: 0;
+}
+
+.text-primary {
+    color: #f52c2c;
+
+}
+
+/* Nav Styles */
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 18px;
+    background-color: #A4A4A4;
+    align-items: center;
+}
+
+.item-container {
+    display: flex;
+    list-style: none;
+}
+
+.menu-item {
+    margin-left: 24px;
+    font-size: 22px;
+    font-family: serif;
+    color: white;
 }
